@@ -1,0 +1,300 @@
+
+
+
+
+@media screen and (min-width: 480px) {
+  .menu_main .c1 {
+    display: none;
+  }
+
+  .content_main_vocabulary {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .menu_main .c1 {
+    display: block;
+  }
+
+.content_main_vocabulary
+{
+    position: absolute;
+    width: 100%;
+    margin-top: 7%;
+}
+
+}
+
+.colums_one
+{
+    background-color: black;
+    margin-left: 30px;
+    font-size: 30px;
+    color: white;
+}
+
+.colums_two
+{
+    background-color: bisque;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.colums_three
+{
+    background-color: black;
+    font-size: 30px;
+    color: white;
+}
+
+.example_table_tr_one_th
+{
+    background-color: #bff1e0;
+    width: 50px;
+}
+
+.example_table_tr_two_th
+{
+    text-align: center;
+    background-color: #bff1e0;
+}
+.example_table_tr_three_th
+{
+    /*background:url(../images/1.PNG) no-repeat;*/
+    width: 50px;
+}
+
+.example_table_tr_three_th > img
+{
+    width: 100%;
+    height: 15%;
+}
+
+.modal_example_form-control-text
+{
+    height: 150px;
+}
+
+.menu_main
+{
+    position: fixed;
+    z-index: 10;
+    background-color: #d6dee6;
+    width: 100%;
+}
+
+
+
+.menu_main .c1
+{
+    margin-left: 10%;
+}
+
+.menu_main .c2
+{
+    text-align: right;
+    margin-right: 10%;
+    margin-top: 3%;
+}
+
+.container .content_example
+{
+    position: absolute;
+    width: 80%;
+    top: 15%;
+    margin-left: 1%;
+}
+
+#nav_image_return
+{
+    float: left;
+    margin-left: 63%;
+}
+
+#nav_image_return > img
+{
+    width: 38px;
+}
+
+#nav_image_return > img:hover{
+   border: 7px solid darkgrey;
+}
+
+#main_table_lable_tr
+{
+    background-color: darkcyan;
+}
+
+#sereach_content
+{
+    float: left;
+    border: 1px solid #578273;
+    margin-left: 22%;
+    border-radius: 39px;
+    padding: 4px;
+    background-color: white;
+}
+
+#sereach_content > input
+{
+    background-color: white;
+    border: 0px solid white;
+    width: 75%;
+    margin-right: 0px;
+    float: left;
+    margin-left: 10px;
+}
+
+#sereach_content > i
+{
+    font-size: 23px;
+    background-color: white;
+    width: 10%;
+    height: 28px;
+    margin-left: -5px;
+    margin-right: 5px;
+}
+
+#button_search_text
+{
+    margin-right: 3%;
+    height: 27px;
+}
+
+#button_search_text > i
+{
+    font-size: 20px;
+}
+
+#main_content_main0 > img
+{
+     margin-top: 10%;
+     border-radius: 50%;
+     opacity: 0.5;
+}
+
+#main_content_main0 > img:hover
+{
+     background-color: darkgray;
+     opacity: 1;
+}
+
+#main_content_main0 > p
+{
+    font-size: 40px;
+    font-family: fantasy;
+    font-weight: 700;
+   /* text-transform: uppercase;*/
+   
+}
+
+#game_content
+{
+    margin: 0 auto;
+    float: none;
+    background: #fff;
+    position: relative;
+    z-index: 10;
+    padding: 20px;
+    width: 500px;
+    box-shadow: 0 0 5px #000;
+    border: 1px solid #bbb;
+    box-shadow: -2px 2px 5px 2px rgba(0,0,0,.2);
+}
+
+#myAudio
+{
+    width: 100%;
+    height: 32px;
+    text-align: center;
+}
+
+#Image_vocabulary
+{
+    width: 50px;
+    height: 38px;
+}
+
+#Image_vocabulary:hover
+{
+/*    position: absolute;
+    width: 32%;
+    height: 5%;
+    z-index: 5;
+    left: 59%;
+    margin-top: 52px;*/
+    position: absolute;
+    width: 33%;
+    height: 300px;
+    z-index: 5;
+    left: 60%;
+    margin-top: -6%;
+    margin-left: -35%;
+}
+
+
+#translate_content_2
+{
+    position: absolute;
+    background-color: aqua;
+    margin-left: 7%;
+    margin-top: 0.6%;
+    display: none;
+    width: 82%;
+}
+
+#translate_content_1:hover #translate_content_2
+{
+    display: block;
+}
+
+.nav_content_translate
+{
+    text-align: center;
+    border-radius: 50%;
+}
+
+
+
+#vocabulary_one:hover
+{
+    position: absolute;
+    width: 60%;
+    height: 193px;
+    z-index: 5;
+    left: 60%;
+    margin-top: -6%;
+    margin-left: -35%;
+    background-color: white;
+    font-size: 115px;
+    color: red;
+    text-align: center;
+    font-weight: 800;
+}
+
+#vocabulary_one_myAudio
+{
+    display: none;
+    margin-top: -9.8%;
+}
+
+#vocabulary_one:hover  #vocabulary_one_myAudio
+{
+    display: block;
+}
+
+#vocabulary_one:hover  #vocabulary_one_phonetic
+{
+    display: block;
+}
+
+#vocabulary_one_phonetic
+{
+    display: none;
+    font-size: 20px;
+    margin-left: 0%;
+    position: absolute;
+    color: black;
+    font-weight: 400;
+}

@@ -1,0 +1,6 @@
+RewriteEngine on
+
+RewriteRule ^example.html$ index.php?p=example [L]
+RewriteRule ^main.html$ index.php?p=main [L]
+RewriteRule ^game.html$ index.php?p=game [L]
+RewriteRule ^main_0.html$ index.php?p=main_0 [L]
