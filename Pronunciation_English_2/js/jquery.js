@@ -13,7 +13,7 @@
 
   function click_return_main()
   {
-    window.location.replace("http://localhost/Pronunciation_English_2/view/main.html");
+    window.location.replace("http://localhost/customer/Pronunciation_English_2/view/main.html");
   }
 
 function enableAutoplay() { 
@@ -26,7 +26,6 @@ function enableAutoplay() {
 
   function animation_translate()
   {
-    
      setTimeout(function() { 
        /*$('.nav_content_translate').css({"display":"none"});*/
        $('.nav_content_translate').css({"border":"1px dotted blue"});

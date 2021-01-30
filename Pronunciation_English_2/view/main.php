@@ -35,9 +35,6 @@ if (isset($_POST['Remove_one_vocabulary']))
 {
   $t->remove_one_vocabulary($_SESSION["VO_ID"]);
 }
-
-
-
 ?>
 
 
@@ -94,25 +91,20 @@ if (isset($_POST['Remove_one_vocabulary']))
     <nav class="content_main_vocabulary">
 
 <!--  ...............-->
-<div class="container">
-<!--   <h2>Wellcome</h2>
-  <p>the manage vocabulary better for you !</p>   -->          
+<div class="container">        
   <table class="table table-dark table-hover">
     <thead>
       <tr id="main_table_lable_tr">
-        <th>Thứ tự 1</th>
+        <th>Thứ tự</th>
         <th>Tên</th>
-        <!-- <th>Type</th>
-        <th>Phonetic</th> -->
         <th>Số lượng</th>
         <th>Liên hệ</th>
         <th>Example</th>
         <th>Thay đổi</th>
-        <th>trạng thái</th>
+        <th>Trạng thái</th>
       </tr>
     </thead>
     <tbody>
-
 <?php
 
 
@@ -145,10 +137,6 @@ if(empty($_POST['input_text_search']))
   /*$t->help_base64_decode_encode();*/
 }
 
-
-
-
-
 ?>
     </tbody>
   </table>
@@ -169,7 +157,6 @@ if(empty($_POST['input_text_search']))
 <div class="modal" id="myModal">
   <div class="modal-dialog">
     <div class="modal-content">
-
      <!-- Modal Header -->
       <div class="modal-header">
         <h4 class="modal-title">New Vocabulary</h4>
@@ -316,21 +303,7 @@ if(empty($_POST['input_text_search']))
   </div>
 </div>
 
-
-
-
-
-<!-- end Modal remove-->
-<!-- <script type="text/javascript">
-  $('#file').on('change',function(){
-               alert ("ok change");
-            })
-</script> -->
-
-
 <script type="text/javascript">
-
-
 $(document).ready(function () {
       $('#file').on('change',function(){
       var fd = new FormData();
@@ -453,7 +426,6 @@ $(document).ready(function () {
       });
   
 });
-
         function mouseleave_search()
         {
             $.get(
@@ -474,8 +446,6 @@ $(document).ready(function () {
         }
 
    function  add_file_mp3(){
-
-
     var fd = new FormData();
     var files = $('#file')[0].files[0];
     fd.append('file',files);

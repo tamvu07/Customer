@@ -6,12 +6,12 @@
 <script type="text/javascript">
     function push_page_main() 
    {  
-    window.location.replace("http://localhost/Pronunciation_English_2/view/main.html");
+    window.location.replace("http://localhost/customer/Pronunciation_English_2/view/main.html");
   }
 
   function push_page_game() 
    {  
-    window.location.replace("http://localhost/Pronunciation_English_2/view/game.html");
+    window.location.replace("http://localhost/customer/Pronunciation_English_2/view/game.html");
   }
 
 </script>

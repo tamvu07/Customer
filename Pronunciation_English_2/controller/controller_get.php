@@ -6,9 +6,10 @@ include_once("../model/model.php");
 
 if (isset($_POST['button_ex']))
 {
+$myVar = $_POST['button_ex'];
 
-    $_SESSION["VO_ID"] = $_POST['button_ex'];
-    header("Location: http://localhost/Pronunciation_English_2/view/example.html");
+    // $_SESSION["VO_ID"] = $_POST['button_ex'];
+    // header("Location: http://localhost/Pronunciation_English_2/view/example.html");
 }
 
 
@@ -113,7 +114,6 @@ class controller_get extends model{
 
 function get_rows_table_vocabulary($result,$dem)
 	{
-
 		if($dem > 0)
 		{
 			$dem1 = $dem;
@@ -156,12 +156,7 @@ function get_rows_table_vocabulary($result,$dem)
 				        <td >'.$vocabulary.'</td>
 				        
 				        <td>'.nl2br($translate_1).'</td>
-				        <td ">
-				        		<audio  id="myAudio" controls>
-  								
-  								<source src="audio/'.$pronunciation.'.mp3" type="audio/mpeg">
-								</audio>
-				        </td>
+				        <td >'.$pronunciation.'</td>
 				        <td>
 				          <form  method="post" name="form" id="form" enctype="mutipart/form-data" >
 				            <button class="btn btn-success" type="submit" id="button_ex" name="button_ex" value= "'.$rows['ID'].'" >EX</button>
@@ -184,7 +179,11 @@ function get_rows_table_vocabulary($result,$dem)
 				            </div>
 				          </div>
 				        </td>
-				        <td><img src="images/'.$rows['image'].'" class="rounded" id="Image_vocabulary"></td>
+				         <td>
+				          <form  method="post" name="form" id="form" enctype="mutipart/form-data" >
+				            <button class="btn btn-success" type="submit" id="button_ex" name="button_ex" value= "'.$rows['image'].'" >TT</button>
+				          </form>
+				        </td>
 				      </tr>
 				';
 				$dem1--;
